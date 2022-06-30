@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .car-image {
+    position: relative;
+    top: 25vh;
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+  }
+  
+  .car-image:hover {
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
+  }
+  
+  
+  
+  .car-image:hover .car-image {
+    transform: translateX(0px);
+  }
+  
+  .car-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
+  .car-image__info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    margin-right: 239px;
+    padding-bottom: 3px;
+    padding-left: 1px;
+    padding-right: 0px;
+    color: grey;
+    background-color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+   
+  }
+  
+  .car-image__make {
+    font-weight: bold;
+  }
+
+  .save{
+    position: absolute;
+    right: 29px;
+    bottom: 296px;
+    left: 0;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border-radius: 40%;
+    margin-left: 200px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+  
+  }
+  
+
+  
+  .car-image__save {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 40%);
+  }
